@@ -1,0 +1,178 @@
+body, html{
+	margin:0px;
+	padding:0px;
+}	
+
+body{
+	zoom: 200%;
+	height:226px;
+}
+
+.ad-container{
+	height:12px;
+	width:125px;
+	position:absolute;
+	top:200px;
+	left:0px;
+	color:black;
+}
+.download{
+	height:14px;
+	width:125px;
+	position:absolute;
+	top:212px;
+	left:0px;
+	color:black;
+	font-size:11px;
+	text-align:center;
+	font-family:arial;
+	background:#4c66a4;
+	color:white;
+	font-weight:bold;
+}
+.ad-container iframe{
+	margin-top:1px;
+}
+
+#gameboard{
+	height:200px;
+	width:125px;
+	background: #71c5cf;
+	position:relative;
+	overflow:hidden;
+}
+#floor{
+	background: url(resources/floor.png);
+	height:24px;
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+
+#bg{
+	background: url(resources/bg.png);
+	height:43px;
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:24px;
+}
+#bird{
+	position:absolute;
+	left:30px;
+	top:90px;
+	width:17px;
+	height:12px;
+}
+#tunnels{
+	position:absolute;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:24px;
+}
+#bird.up{
+	background: url(resources/wing-up.png);
+}
+#bird.down{
+	background: url(resources/wing-down.png);
+}
+#bird.mid{
+	background: url(resources/wing-middle.png);
+}
+
+#tunnels .up{
+	background: url(resources/tunnel-down.png);
+	width:24px;
+	height: 174px;
+	float:left;
+}
+#tunnels .down{
+	background: url(resources/tunnel-up.png);
+	width:24px;
+	height: 174px;
+	float:left;
+}
+.tunnel-holder{
+	position: absolute;
+	bottom:0px;
+	width:24px;
+	
+}
+#score{
+	position:absolute;
+	left:0px;
+	right:0px;
+	top:8px;
+	text-align:center;
+	z-index:3;
+}
+.num{
+	width: 8px;
+	height: 12px;
+	background-size:8px 12px;
+	margin-right:1px;
+	display:inline-block;
+}
+.n-0{
+	background-image: url(resources/zero.png);
+}
+.n-1{
+	background-image: url(resources/one.png);
+}
+.n-2{
+	background-image: url(resources/two.png);
+}
+.n-3{
+	background-image: url(resources/three.png);
+}
+.n-4{
+	background-image: url(resources/four.png);
+}
+.n-5{
+	background-image: url(resources/five.png);
+}
+.n-6{
+	background-image: url(resources/six.png);
+}
+.n-7{
+	background-image: url(resources/seven.png);
+}
+.n-8{
+	background-image: url(resources/eight.png);
+}
+.n-9{
+	background-image: url(resources/nine.png);
+}
+#start-page{
+	position:absolute;
+	left:15px;
+	top:30px;
+	width:112px;
+	height:96px;
+	background-image: url(resources/start.png);
+	background-size:cover;
+}
+#high-score{
+	position: absolute;
+	left: 5px;
+	top: 46px;
+	width: 112px;
+	height: 130px;
+	background-image: url(resources/high-score.png);
+	background-size: cover;
+	z-index: 10;
+	display:none;
+}
+
+#cur-score{
+	position: absolute;
+	right: 10px;
+	top: 45px;
+}
+#max-score{
+	position: absolute;
+	right: 10px;
+	top: 65px;
+}
