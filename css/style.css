@@ -116,34 +116,44 @@ body{
 	display:inline-block;
 }
 .n-0{
-	background-image: url(resources/zero.png);
+	/* background-image: url(resources/zero.png); */
+	background-image: url(resources/0.png);
 }
 .n-1{
-	background-image: url(resources/one.png);
+	/*background-image: url(resources/one.png);*/
+	background-image: url(resources/stage1.png);
 }
 .n-2{
-	background-image: url(resources/two.png);
+	/*background-image: url(resources/two.png);*/
+	background-image: url(resources/stage2.png);
 }
 .n-3{
-	background-image: url(resources/three.png);
+	/*background-image: url(resources/three.png);*/
+	background-image: url(resources/stage3.png);
 }
 .n-4{
-	background-image: url(resources/four.png);
+	/*background-image: url(resources/four.png);*/
+	background-image: url(resources/stage4.png);
 }
 .n-5{
-	background-image: url(resources/five.png);
+	/*background-image: url(resources/five.png);*/
+	background-image: url(resources/5.png);
 }
 .n-6{
-	background-image: url(resources/six.png);
+	/*background-image: url(resources/six.png);*/
+	background-image: url(resources/6.png);
 }
 .n-7{
-	background-image: url(resources/seven.png);
+	/*background-image: url(resources/seven.png);*/
+	background-image: url(resources/7.png);
 }
 .n-8{
-	background-image: url(resources/eight.png);
+	/*background-image: url(resources/eight.png);*/
+	background-image: url(resources/8.png);
 }
 .n-9{
-	background-image: url(resources/nine.png);
+	/*background-image: url(resources/nine.png);*/
+	background-image: url(resources/9.png);
 }
 #start-page{
 	position:absolute;
